@@ -1,1 +1,2 @@
 # StarField
+Creates a class that will hold a star object. The class includes the following fields - texture, rectangle, color, position, velocity. It also includes a base constructor and an update method. Loads random data into the object - star and populates the array with stars. Calls the update on each star and gets the data during the mains draw method. Once a star flies off the screen, it generates a new one that will show back up on the screen.
